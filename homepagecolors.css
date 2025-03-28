@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url(Images/Vansidewithboxes.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+header{ 
+    position: static; /* Default positioning, not fixed */
+    top: 0;           /* Ensure it's at the top (top property is not needed with static) */
+    left: 0;          /* Align the header to the left */
+    width: 100%;      /* Ensure the header spans the full width of the screen */
+    background-color: #332c2c; /* Set a background color */
+    color: white;     /* Set the text color to white */
+    text-align: center; /* Center the header text */
+    padding: 20px 30px;  /* Add padding inside the header */
+    font-size: 14px;      /* Set font size */
+    z-index: 1000;
+     
+}
+/* Link styles */
+
+header button {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    border: none;               /* Remove border */
+    padding: 10px 20px;         /* Add padding around the text */
+    margin: 5px 10px;           /* Space between buttons */
+    font-size: 14px;            /* Set font size */
+    cursor: pointer;           /* Change cursor to a pointer on hover */
+    border-radius: 5px;         /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+
+}
+
+
+/* Link styles */
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 0%;
+    width: 150px;       /* Set width of logo */
+    height: auto;      /* Maintain aspect ratio */
+    border-radius: 5px; /* Apply rounded corners (adjust value as needed) */
+    display: block;    /* Makes the image behave like a block-level element */
+
+}
+.content {
+    margin-top: 60px;  /* Adjust for header height */
+    padding: 20px;
+}

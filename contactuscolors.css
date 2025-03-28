@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 300px;
+    padding: 0;
+   background-image: url(Images/Vansidewithboxes.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+main {
+    padding: 20px;
+    color:rgb(0, 0, 0)
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #000000;
+}
+p2{
+   color: blue;
+
+}
+/* Link styles */
+a {
+    color: blue;              /* Text color */
+    text-decoration: none;    /* Removes underline */
+    font-weight: bold;        /* Bold text */
+    font-size: 16px;          /* Font size */
+}
+a:hover {
+    color: rgb(9, 206, 59);          /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+/* Link styles */
